@@ -1,0 +1,13 @@
+{
+	...
+  "command": {
+    "publish": {
+      "ignoreChanges": ["*.md"],
+      "registry": "https://registry.npmjs.org/",
+      "verifyAccess": false, // 内网发包需开启
+      "verifyRegistry": false, // 内网发包需开启
+      "message": "chore: publish" // 修改默认的publish的commit msg
+    }
+  }
+}
+
